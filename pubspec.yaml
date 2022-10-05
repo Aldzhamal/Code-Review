@@ -1,0 +1,76 @@
+name: cleaner_code_review
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  #Architecture
+  flutter_bloc: ^8.1.1
+  equatable: ^2.0.5
+  get_it: ^7.2.0
+
+
+  #Ui
+  flutter_screenutil: ^5.5.4
+  flutter_svg: ^1.1.3
+  progress_indicators: ^1.0.0
+  lottie: ^1.4.2
+  google_mobile_ads: ^2.0.1
+  flutter_switch: ^0.3.2
+  easy_localization: ^3.0.0
+  easy_localization_loader: ^1.0.0
+  rating_dialog: ^2.0.4
+  store_redirect: ^2.0.1
+  adaptive_theme: ^3.1.1
+  
+
+
+  #Functions
+  flutter_secure_storage: ^6.0.0
+  simple_connection_checker: ^0.2.1
+  battery_info: ^1.1.1
+  storage_space: ^1.0.1+5
+  awesome_notifications: ^0.6.21
+  package_info_plus: ^1.4.3+1
+  flutter_email_sender: ^5.1.0
+  share_plus: ^4.0.10+1
+  dropdown_button2: ^1.7.2
+
+dependency_overrides:
+  xml: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/json/
+    - assets/text/
+    - assets/languages/
+
+
+  fonts:
+    - family: Rany
+      fonts:
+        - asset: assets/fonts/Rany-Light.otf
+          weight: 300
+        - asset: assets/fonts/Rany.otf
+          weight: 400
+        - asset: assets/fonts/Rany-Medium.otf
+          weight: 500
+        - asset: assets/fonts/Rany-Bold.otf
+          weight: 700
